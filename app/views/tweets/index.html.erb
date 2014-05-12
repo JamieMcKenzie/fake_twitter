@@ -1,0 +1,10 @@
+<h1>This is Twitter, bitch.</h1>
+
+<%= render partial: "new", locals: {tweet: @tweet} %>
+
+<div class="tweets">
+  <% @tweets.each do |tweet| %>
+    <p><%=tweet.tweet%></p>
+  <% end %>
+</div>
+

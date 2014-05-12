@@ -1,0 +1,2796 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 16:45:26 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 41ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 16:58:00 -0700
+
+ActionController::RoutingError (uninitialized constant HomeController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 16:58:20 -0700
+
+ActionController::RoutingError (uninitialized constant TweetsController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 16:58:49 -0700
+Processing by TweetsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant TweetsController::Tweet):
+  app/controllers/tweets_controller.rb:5:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:00:00 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 580ms (Views: 504.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:00:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:00:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:00:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:00:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:00:01 -0700
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateTweets (20140512000642)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "tweets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tweet" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140512000642"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mTweet Load (0.9ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 00:18:36.536866"], ["tweet", "Never doubt that a small group of thoughtful, committed citizens can change the world."], ["updated_at", "2014-05-12 00:18:36.536866"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 00:18:36.557384"], ["tweet", "I am in favor of cutting taxes under any circumstances and for any excuse, for any reason, whenever it's possible."], ["updated_at", "2014-05-12 00:18:36.557384"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 00:18:36.560641"], ["tweet", "If a nation expects to be ignorant and free, in a state of civilization, it expects what never was and never will be."], ["updated_at", "2014-05-12 00:18:36.560641"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 00:18:36.563829"], ["tweet", "To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour."], ["updated_at", "2014-05-12 00:18:36.563829"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 00:18:36.566081"], ["tweet", "To fear love is to fear life, and those who fear life are already three parts dead."], ["updated_at", "2014-05-12 00:18:36.566081"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 00:18:36.568323"], ["tweet", "As for the future, your task is not to forsee it, but to enable it."], ["updated_at", "2014-05-12 00:18:36.568323"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 00:18:36.570418"], ["tweet", "Where they burn books, they will also burn people."], ["updated_at", "2014-05-12 00:18:36.570418"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 00:18:36.572416"], ["tweet", "Treat a person as he is, and he will remain as he is. Treat him as he could be, and he will become what he should be."], ["updated_at", "2014-05-12 00:18:36.572416"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 00:18:36.574640"], ["tweet", "I would rather be able to appreciate things I cannot have than to have things I am not able to appreciate."], ["updated_at", "2014-05-12 00:18:36.574640"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 00:18:36.576922"], ["tweet", "If they can get you asking the wrong questions, they don't have to worry about answers."], ["updated_at", "2014-05-12 00:18:36.576922"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36mTweet Load (1.1ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#index as HTML
+  Rendered tweets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:19:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+Processing by TweetsController#index as HTML
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+Processing by TweetsController#index as HTML
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:23:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+Processing by TweetsController#index as HTML
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:36:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:39:24 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/index.html.erb:4: syntax error, unexpected keyword_do_block
+....append=  form_for [@tweet], do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/index.html.erb:14: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+Processing by TweetsController#index as HTML
+  [1m[36mTweet Load (0.4ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:41:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:42:58 -0700
+Processing by TweetsController#index as HTML
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:42:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:45:12 -0700
+Processing by TweetsController#index as HTML
+  [1m[36mTweet Load (0.4ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:45:13 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+Processing by TweetsController#index as HTML
+  [1m[35mTweet Load (0.3ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 17:46:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:57:21 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/_new.html.erb:3: syntax error, unexpected keyword_do_block
+....append=  form_for [@tweet], do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/_new.html.erb:9: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311548422300'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:58:01 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/_new.html.erb:3: syntax error, unexpected keyword_do_block
+....append=  form_for [@tweet], do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/jam/Desktop/twitter/fake_twitter/app/views/tweets/_new.html.erb:9: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311534191680'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 17:59:57 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311550312660'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:00:55 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311550312660'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:00:57 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311550312660'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:04:30 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311550312660'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:06:55 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311549911140'
+  app/controllers/tweets_controller.rb:6:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:08:13 -0700
+Processing by TweetsController#index as HTML
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/_new.html.erb (39.6ms)
+  Rendered tweets/index.html.erb within layouts/application (40.4ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined method `tweets_path' for #<#<Class:0x007fe55f003c90>:0x007fe55f003240>):
+    1: <div class='text-box'>
+    2:   hello world!!
+    3:   <%= form_for @tweet do |f| %>
+    4:     <%= f.text_area :tweet, :required => true %>
+    5:     <%= submit_tag "Tweet!" %>
+    6:   <% end %>
+  app/views/tweets/_new.html.erb:3:in `_app_views_tweets__new_html_erb__4493462171731329225_70311523278740'
+  app/views/tweets/index.html.erb:3:in `_app_views_tweets_index_html_erb__3571589065276183689_70311549911140'
+  app/controllers/tweets_controller.rb:7:in `index'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (121.7ms)
+  [1m[35mTweet Load (0.3ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (123.8ms)
+Completed 200 OK in 130ms (Views: 127.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:10:45 -0700
+
+
+Started POST "/tweets" for 127.0.0.1 at 2014-05-11 18:10:53 -0700
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXD832u0Pks4ARaIPVa6ZHcnc8ZmPQO7AGNvp8Rr5sY=", "tweet"=>{"tweet"=>"yeah bitch"}, "commit"=>"Tweet!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 01:10:53.104034"], ["tweet", "yeah bitch"], ["updated_at", "2014-05-12 01:10:53.104034"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 9ms
+
+NameError (undefined local variable or method `root' for #<TweetsController:0x007fe55dddb478>):
+  app/controllers/tweets_controller.rb:19:in `create'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2014-05-11 18:11:10 -0700
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXD832u0Pks4ARaIPVa6ZHcnc8ZmPQO7AGNvp8Rr5sY=", "tweet"=>{"tweet"=>"yeah bitch"}, "commit"=>"Tweet!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-05-12 01:11:10.629577"], ["tweet", "yeah bitch"], ["updated_at", "2014-05-12 01:11:10.629577"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 7ms
+
+NameError (undefined local variable or method `root' for #<TweetsController:0x007fe55a7231d8>):
+  app/controllers/tweets_controller.rb:19:in `create'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2014-05-11 18:11:57 -0700
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXD832u0Pks4ARaIPVa6ZHcnc8ZmPQO7AGNvp8Rr5sY=", "tweet"=>{"tweet"=>"yeah bitch"}, "commit"=>"Tweet!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 01:11:57.135756"], ["tweet", "yeah bitch"], ["updated_at", "2014-05-12 01:11:57.135756"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 10ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2014-05-11 18:11:57 -0700
+
+AbstractController::ActionNotFound (The action 'show' could not be found for TweetsController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2014-05-11 18:12:42 -0700
+
+AbstractController::ActionNotFound (The action 'show' could not be found for TweetsController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jam/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (3.5ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:47 -0700
+
+
+Started POST "/tweets" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXD832u0Pks4ARaIPVa6ZHcnc8ZmPQO7AGNvp8Rr5sY=", "tweet"=>{"tweet"=>"bitches, what?"}, "commit"=>"Tweet!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 01:12:55.486950"], ["tweet", "bitches, what?"], ["updated_at", "2014-05-12 01:12:55.486950"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:12:55 -0700
+
+
+Started POST "/tweets" for 127.0.0.1 at 2014-05-11 18:13:01 -0700
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gXD832u0Pks4ARaIPVa6ZHcnc8ZmPQO7AGNvp8Rr5sY=", "tweet"=>{"tweet"=>"i made things!"}, "commit"=>"Tweet!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tweets" ("created_at", "tweet", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-05-12 01:13:01.971508"], ["tweet", "i made things!"], ["updated_at", "2014-05-12 01:13:01.971508"]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:13:01 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:13:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:14:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:15:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:17:02 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:17:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:19:22 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.4ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:19:22 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:19:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:19:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:19:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:19:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:19:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:19:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:20:03 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.0ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.3ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:20:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:21:06 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:07 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:21:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.0ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:22:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:23:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:24:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:25:34 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.0ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:25:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:26:02 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.2ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:26:55 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:26:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:27:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 18:28:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:15:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:17:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.0ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:21:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:22:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (34.3ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:23:46 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:23:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.6ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:24:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:28:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:29:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:30:39 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:30:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:32:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:33:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:34:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:35:20 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:35:42 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:35:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:36:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:37:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:38:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:39:04 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:39:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.9ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:41 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:40:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:41:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (1.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:42:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.7ms)
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets"
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+Processing by TweetsController#index as HTML
+  Rendered tweets/_new.html.erb (0.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets"[0m
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-11 23:43:30 -0700

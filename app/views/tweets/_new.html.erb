@@ -1,0 +1,6 @@
+<div class='text-area'>
+  <%= form_for @tweet do |f| %>
+    <%= f.text_area :tweet, html: {class: "text-box"}, required: true, placeholder: "Compose new Tweet..." %>
+    <%= submit_tag "Tweet!", class: "submit" %>
+  <% end %>
+</div>
