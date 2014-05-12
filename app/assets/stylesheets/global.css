@@ -4,18 +4,23 @@ body {
   min-height: 800px;
 }
 
+h1 {
+  text-align: center;
+}
 .container {
   height: 800px;
   margin: 0 auto;
   top: 10px;
+  position: relative;
   width: 80%;
 }
 
 .text-area {
   display: block;
-  position: relative;
-  left: 20px;
-  width: 25%;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  width: 20%;
 }
 
 #tweet_tweet {
@@ -26,7 +31,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   font-weight: 300;
-  height: 35px;
+  line-height: 15px;
   padding: 8px 10px;
   text-align: left;
   text-decoration: none;
@@ -58,13 +63,33 @@ body {
   background-color: #fff;
   display: block;
   height: 750px;
-  margin: 0px 250px;
-  position: absolute;
-  right: 0;
-  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+  width: 40%;
 }
 
 p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.suggestions {
+  background-color: #232323;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: #D6D6D6;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  right: 30px;
+  top: 20px;
+  line-height: 15px;
+  padding: 8px 10px;
   position: absolute;
-  right: 10px;
+  text-align: left;
+  text-decoration: none;
+  width: 20%;
 }
